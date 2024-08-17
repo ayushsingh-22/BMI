@@ -36,16 +36,16 @@ public class MainActivity extends AppCompatActivity {
                 double bmi = wt / (heightM * heightM);
 
                 if (bmi > 25) {
-                    rt.setText("Yor are unhealthy");
+                    rt.setText(R.string.Unhealthy);
                     lt.setBackgroundColor(getResources().getColor(R.color.red));
                 } else if (bmi < 18)
                 {
-                    rt.setText("You are skinny");
+                    rt.setText(R.string.Skinny);
                     lt.setBackgroundColor(getResources().getColor(R.color.yellow));
                 } else
                 {
                     lt.setBackgroundColor(getResources().getColor(R.color.green));
-                    rt.setText("You are fit till now");
+                    rt.setText(R.string.Fit);
                 }
             }
         });

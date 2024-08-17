@@ -2,6 +2,9 @@
     <string name="app_name">BMI</string>
     <string name="heightCm">Enter your height(in cm)</string>
     <string name="weight">Enter your weight(in Kg)</string>
+    <string name="Skinny">You are skinny.</string>
+    <string name="Unhealthy">Yor are unhealthy.</string>
+    <string name="Fit">You are fit.</string>
 
 
 </resources>
